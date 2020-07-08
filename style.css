@@ -1,4 +1,4 @@
-/* root */
+/* основные стили */
 html, body {
     box-sizing: border-box;
     padding: 0;
@@ -11,7 +11,7 @@ html, body {
     min-width: 320px;
 }
 
-/* text styles */
+/* стилизация текстов */
 .heading-title {
     text-align: center;
     padding: 0;
@@ -22,7 +22,7 @@ html, body {
     text-align: justify;
 }
 
-/* bar chart styles */
+/* стилизация для гистограммы */
 #bar-chart {
     display: flex;
     flex-direction: row;
