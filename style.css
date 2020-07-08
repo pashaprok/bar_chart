@@ -1,0 +1,57 @@
+/* root */
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+.container {
+    width: 90%;
+    margin: 0px auto;
+    min-width: 320px;
+}
+
+/* text styles */
+.heading-title {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.task-text {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* bar chart styles */
+#bar-chart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 90%;
+    margin: 60px auto;
+    min-width: 320px;
+    height: 60vh;
+    border: 1px solid #333;
+    background: repeating-linear-gradient(
+      to top,
+      #D8D8D8,
+      #848484 1px,
+      #fff 1px,
+      #fff 20px
+    );
+}
+.vcell {
+    display: flex;
+    width: 50px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    color: #0000FF;
+    text-align: center;
+}
+.vbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: height 1s;
+}
